@@ -1,12 +1,13 @@
 1 commit<br/>
-<img width="647" height="811" alt="Zrzut ekranu 2026-11-15 221144" src="https://github.com/user-attachments/assets/4623297b-9631-4cfc-8dad-fd15c778293f" />
+
 <img width="790" height="847" alt="Zrzut ekranu 2026-11-15 220054" src="https://github.com/user-attachments/assets/cb660968-0401-40a1-843e-ee4e1dff64ac" />
 <img width="792" height="857" alt="Zrzut ekranu 2026-11-15 220016" src="https://github.com/user-attachments/assets/36821402-8e18-40b6-833a-0107bc063dd2" />
 
 
 
 2commit<br/>
-![Uploading Zrzut ekranu 2026-11-15 221144.png…]()
+<img width="647" height="811" alt="Zrzut ekranu 2026-11-15 221144" src="https://github.com/user-attachments/assets/1ff81739-0ec8-4253-9784-4d4fbc8bf069" />
+
 
 
 
