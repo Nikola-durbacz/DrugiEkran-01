@@ -1,17 +1,19 @@
-package com.example.drugiekran_01;import android.os.Bundle;
+package com.example.drugiekran_01;
 
-
+import android.content.Intent;
+import android.os.Bundle;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SummaryActivity extends AppCompatActivity {
 
-    public static final String EXTRA_NAME = "com.example.dwaekrany.NAME";
-    public static final String EXTRA_EMAIL = "com.example.dwaekrany.EMAIL";
-    public static final String EXTRA_COURSE = "com.example.dwaekrany.COURSE";
-    public static final String EXTRA_LEVEL = "com.example.dwaekrany.LEVEL";
-    public static final String EXTRA_NEWSLETTER = "com.example.dwaekrany.NEWSLETTER";
+    public static final String EXTRA_NAME = "com.example.drugiekran_01.NAME";
+    public static final String EXTRA_EMAIL = "com.example.drugiekran_01.EMAIL";
+    public static final String EXTRA_COURSE = "com.example.drugiekran_01.COURSE";
+    public static final String EXTRA_LEVEL = "com.example.drugiekran_01.LEVEL";
+    public static final String EXTRA_NEWSLETTER = "com.example.drugiekran_01.NEWSLETTER";
+    public static final String EXTRA_RESULT = "com.example.drugiekran_01.RESULT";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,5 +43,12 @@ public class SummaryActivity extends AppCompatActivity {
         tvSummary.setText(summary);
 
         findViewById(R.id.btnEdit).setOnClickListener(v -> finish());
+
+        findViewById(R.id.btnConfirm).setOnClickListener(v -> {
+            Intent resultIntent = new Intent();
+            resultIntent.putExtra(EXTRA_RESULT, "Zapis został zatwierdzony");
+            setResult(RESULT_OK, resultIntent);
+            finish();
+        });
     }
 }
