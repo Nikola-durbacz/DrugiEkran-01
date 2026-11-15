@@ -1,8 +1,11 @@
+
 package com.example.drugiekran_01;
 
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -49,6 +52,25 @@ public class SummaryActivity extends AppCompatActivity {
             resultIntent.putExtra(EXTRA_RESULT, "Zapis został zatwierdzony");
             setResult(RESULT_OK, resultIntent);
             finish();
+        });
+
+        findViewById(R.id.btnShare).setOnClickListener(v -> {
+            Intent shareIntent = new Intent(Intent.ACTION_SEND);
+            shareIntent.setType("text/plain");
+            shareIntent.putExtra(Intent.EXTRA_TEXT, summary);
+
+            try {
+                startActivity(Intent.createChooser(
+                        shareIntent,
+                        getString(R.string.share_via)
+                ));
+            } catch (ActivityNotFoundException e) {
+                Toast.makeText(
+                        this,
+                        getString(R.string.error_no_app),
+                        Toast.LENGTH_SHORT
+                ).show();
+            }
         });
     }
 }
