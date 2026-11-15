@@ -1,14 +1,18 @@
 1 commit<br/>
-<img width="1283" height="1391" alt="691482495-2e9e3a1a-e58a-4256-a825-cf7bd3fc6304" src="https://github.com/user-attachments/assets/1d48930f-967f-4457-9730-e5f359f639e1" />
+<img width="647" height="811" alt="Zrzut ekranu 2026-11-15 221144" src="https://github.com/user-attachments/assets/4623297b-9631-4cfc-8dad-fd15c778293f" />
+<img width="790" height="847" alt="Zrzut ekranu 2026-11-15 220054" src="https://github.com/user-attachments/assets/cb660968-0401-40a1-843e-ee4e1dff64ac" />
+<img width="792" height="857" alt="Zrzut ekranu 2026-11-15 220016" src="https://github.com/user-attachments/assets/36821402-8e18-40b6-833a-0107bc063dd2" />
+
 
 
 2commit<br/>
-<img width="472" height="770" alt="691508838-436ade71-0ad8-45ba-9584-ae28ae9178ce" src="https://github.com/user-attachments/assets/5537b9ac-c5e6-4f24-a4dd-ff0b59bcfd20" />
-<img width="886" height="780" alt="691506049-8b7dc142-e59b-48ec-8265-b54b3469783a" src="https://github.com/user-attachments/assets/8d36686d-8fd9-4d2e-b5c4-3d08d91fc5e9" />
+![Uploading Zrzut ekranu 2026-11-15 221144.png…]()
+
 
 
 3.commit<br/>
-<img width="1281" height="1385" alt="691503739-045a6afa-d75a-4854-9659-df76bef06c8c" src="https://github.com/user-attachments/assets/817f1eb4-d64b-4989-9c7b-ada453668a65" />
+
+<img width="784" height="778" alt="Zrzut ekranu 2026-11-15 221647" src="https://github.com/user-attachments/assets/2053e634-2e5c-4687-976b-3c61066b34ec" />
 
 
 4commit.<br/>
